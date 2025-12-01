@@ -5,6 +5,7 @@ public class binaryTree {
     private Node root;
 
     binaryTree (Node root) {
+
         this.root = root;
     }
 
