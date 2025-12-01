@@ -1,25 +1,25 @@
 package org.example;
 
-public class Node <T> {
+public class Node  {
 
-    private T data;
-    private Node <T> left;
-    private Node <T> right;
+    private Squirrel data;
+    private Node left;
+    private Node right;
 
 
-    Node(T data) {
+    Node(Squirrel data) {
 
         this.data = data;
         this.left = null;
         this.right = null;
     }
 
-    void set_left(Node <T> child) {left = child;}
+    void set_left(Node child) {left = child;}
 
-    void set_right(Node <T> child) {right = child;}
+    void set_right(Node child) {right = child;}
 
     Node left() { return left; }
     Node right() { return right; }
 
-    T getData() { return data; }
+    Squirrel getData() { return data; }
 }

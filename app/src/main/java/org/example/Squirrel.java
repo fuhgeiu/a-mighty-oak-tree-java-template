@@ -12,6 +12,6 @@ public class Squirrel {
 
     String getName() {
 
-        return this.name;
+        return name;
     }
 }
